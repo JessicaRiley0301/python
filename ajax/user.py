@@ -1,4 +1,4 @@
-class User:
+class User: #mybankaccount
     bank_name = "Jessica's Bank"
     def __init__(self, name):
         self.name = name
