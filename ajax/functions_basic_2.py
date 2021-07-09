@@ -1,14 +1,14 @@
-for countdown in range (5, 0, -1):
+for countdown in range (5, 0, -1): #1
     print (countdown)
 
 
-def my_function(x):
+def my_function(x): #2
     return 1 + x
 
 print(my_function(0))
 print(my_function(1))
 
-def first_plus_length(asd):
+def first_plus_length(asd): #3
     return asd[0] + len(asd)
 
 my_list = [1,2,3,4,5]
