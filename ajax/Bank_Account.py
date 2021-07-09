@@ -1,4 +1,4 @@
-class BankAccount:
+class BankAccount: #bankaccount
     bank_name = "Rich Bank"
     all_accounts = []
     def __init__(self, int_rate = 0.2, balance = 0): 
@@ -37,8 +37,6 @@ class BankAccount:
 
 Account_1 = BankAccount()
 Account_2 = BankAccount()
-
-
 
 Account_1.deposit(500).deposit(500).withdraw(200).yield_interest().display_account_info()
 Account_2.deposit(300).deposit(600).withdraw(100).withdraw(200).withdraw(300).withdraw(100).yield_interest().display_account_info()
