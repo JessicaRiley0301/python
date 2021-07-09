@@ -26,6 +26,8 @@ students = [
     {'first_name' : 'KB', 'last_name' : 'Tonel'}
 ]
 
+
+
 def iterate_dictionary(some_list):
     # Loop through the list
     for item in some_list:
