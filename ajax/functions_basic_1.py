@@ -25,6 +25,7 @@ print(number_of_fingers())
 #guess 5 answer 5
 
 #5
+
 def number_of_great_lakes():
     print(5)
 x = number_of_great_lakes()
@@ -108,7 +109,7 @@ def foobar():
 print(b)
 b=foobar()
 print(b)
-#guess 500 300 500 300 answer 500 500 300 300
+#guess 500 300 500 300 answer 500 500 30 3000
 #i dont get this one either
 
 #14
